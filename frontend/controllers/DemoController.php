@@ -82,18 +82,5 @@ class DemoController extends Controller{
         return $this->render('/site/demo/pjax',['url' => $url]);
     }
 
-    /**
-     * ======================================================================
-     * 插入数据
-     */
-    public function actionInsertData()
-    {
-        $user = new User();
-        $user->username = 'zeopean';
-        'auth_key' => $this->string(32)->notNull(),
-            'password_hash' => $this->string()->notNull(),
-            'password_reset_token' => $this->string()->unique(),
-            'email' => $this->string()->notNull()->unique(),
-        $user
-    }
+
 }
