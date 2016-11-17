@@ -1,0 +1,16 @@
+[ 2016-10-26T18:10:31+08:00 ] 192.168.11.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+NOTIC: [2] Memcached::setSaslAuthData(): SASL support (memcached.use_sasl) isn't enabled in php.ini /vagrant/vhost/vhost/ceping-wz/wx/pub/New/simplewind/Core/Library/Think/Cache/Driver/Memcached.class.php 第 57 行.
+NOTIC: [2] mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /vagrant/vhost/vhost/ceping-wz/wx/pub/New/simplewind/Core/Library/Think/Db/Driver/Mysqli.class.php 第 44 行.
+NOTIC: [2] mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /vagrant/vhost/vhost/ceping-wz/wx/pub/New/simplewind/Core/Library/Think/Db/Driver/Mysqli.class.php 第 44 行.
+ERR: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+
+[ 2016-10-26T18:12:15+08:00 ] 192.168.11.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+NOTIC: [2] Memcached::setSaslAuthData(): SASL support (memcached.use_sasl) isn't enabled in php.ini /vagrant/vhost/vhost/ceping-wz/wx/pub/New/simplewind/Core/Library/Think/Cache/Driver/Memcached.class.php 第 57 行.
+NOTIC: [2] mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /vagrant/vhost/vhost/ceping-wz/wx/pub/New/simplewind/Core/Library/Think/Db/Driver/Mysqli.class.php 第 44 行.
+NOTIC: [2] mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution /vagrant/vhost/vhost/ceping-wz/wx/pub/New/simplewind/Core/Library/Think/Db/Driver/Mysqli.class.php 第 44 行.
+ERR: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution
+
